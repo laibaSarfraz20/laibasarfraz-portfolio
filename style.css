@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url("https://i.imgur.com/GlV6w5v.png")
+    background-image: url("img/Screenshot\ 2024-11-11\ 220023.png")
 }
 .navbar-brand img {
     position: relative;
@@ -112,7 +112,6 @@ body {
     text-align: center;
     color: #ffff;
 }
-
 .contact-form .btnContact {
     width: 50%;
     border: none;
@@ -123,13 +122,52 @@ body {
     color: #fff;
     cursor: pointer;
 }
-
-.btnContactSubmit {
-    width: 70%;
-    border-radius: 1rem;
-    padding: 1.5%;
+.btn {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+   padding:7px 15px;
+    text-align: center;
+    line-height: 60px;
     color: #fff;
-    background-color: #0062cc;
-    border: none;
-    cursor: pointer;
-}
+    font-size: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, yellow, orange, red, violet, purple, blue, yellow);
+    background-size: 400%;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  .btn:hover {
+    animation: animate 8s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+  .btn:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(45deg, #f15523, #ef3224, #7c3697);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5%;
+  }
+  .btn:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+  }
+  
