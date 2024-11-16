@@ -1,8 +1,11 @@
 body {
+
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    overflow-x: hidden;
     background-image: url("img/Screenshot\ 2024-11-11\ 220023.png")
+
 }
 .navbar-brand img {
     position: relative;
@@ -59,13 +62,20 @@ body {
 }
 
 #name {
-    margin-top: 20%;
+  
 
-    font-size: 620%;
+    font-size: 520%;
     background: -webkit-linear-gradient(rgb(31, 187, 0), rgb(255, 255, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+.intro{
+    margin-top: 20%;
+    font-size: 110%;
+    background: -webkit-linear-gradient(rgb(31, 187, 0), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .about {
@@ -74,7 +84,12 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.about-me{
+    font-size: 110%;
+    background: -webkit-linear-gradient(rgb(31, 187, 0), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
 .contact-form {
     background: linear-gradient(to right, rgba(122, 16, 122, 0.349), #0063cc6e);
     border-radius: 2em;
@@ -122,52 +137,23 @@ body {
     color: #fff;
     cursor: pointer;
 }
-.btn {
-    position: absolute;
-    top: 90%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-   padding:7px 15px;
-    text-align: center;
-    line-height: 60px;
-    color: #fff;
-    font-size: 15px;
-    text-decoration: none;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    background: linear-gradient(90deg, yellow, orange, red, violet, purple, blue, yellow);
-    background-size: 400%;
-    border-radius: 10px;
-    z-index: 1;
-  }
-  .btn:hover {
-    animation: animate 8s linear infinite;
-  }
-  @keyframes animate {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 400%;
-    }
-  }
-  .btn:before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    z-index: -1;
-    background: linear-gradient(45deg, #f15523, #ef3224, #7c3697);
-    background-size: 400%;
-    border-radius: 40px;
-    opacity: 0;
-    transition: 0.5%;
-  }
-  .btn:hover:before {
-    filter: blur(20px);
-    opacity: 1;
-    animation: animate 8s linear infinite;
-  }
+
+.card{
+    background: transparent;
+}
+.card-body{
+color:white;
+}
+.img-name{
+    height: 400px;
+    width: 600px;
+}
+#about {
   
+
+    font-size: 320%;
+    background: -webkit-linear-gradient(rgb(31, 187, 0), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
