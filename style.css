@@ -140,13 +140,24 @@ body {
 
 .card{
     background: transparent;
+    margin: 1%;
+}
+.card:hover{
+    border: 1px solid  rgba(122, 16, 122, 0.747);
+    background: linear-gradient(to right, rgba(122, 16, 122, 0.349), #0063cc6e);
 }
 .card-body{
 color:white;
 }
 .img-name{
-    height: 400px;
-    width: 600px;
+margin-top: 40%;
+
+}
+@media (min-width: 300px) {
+    .img-name{
+      width: 250px;
+        margin-left: 0;
+        }
 }
 #about {
   
@@ -156,4 +167,7 @@ color:white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+.projects{
+   
 }
