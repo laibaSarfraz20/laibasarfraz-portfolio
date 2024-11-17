@@ -5,8 +5,8 @@ body {
     font-family: sans-serif;
     overflow-x: hidden;
     background-image: url("img/Screenshot\ 2024-11-11\ 220023.png")
-
 }
+
 .navbar-brand img {
     position: relative;
     border-radius: 2000px;
@@ -62,7 +62,7 @@ body {
 }
 
 #name {
-  
+
 
     font-size: 520%;
     background: -webkit-linear-gradient(rgb(31, 187, 0), rgb(255, 255, 255));
@@ -70,7 +70,8 @@ body {
     -webkit-text-fill-color: transparent;
 
 }
-.intro{
+
+.intro {
     margin-top: 20%;
     font-size: 110%;
     background: -webkit-linear-gradient(rgb(31, 187, 0), rgb(255, 255, 255));
@@ -84,12 +85,25 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.about-me{
+
+#projects {
+    font-size: 200%;
+    background: -webkit-linear-gradient(rgb(31, 187, 0), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: centerF;
+
+}
+.btn{
+    background: linear-gradient(to right, #0063cc8c, rgba(122, 16, 122, 0.747));
+}
+.about-me {
     font-size: 110%;
     background: -webkit-linear-gradient(rgb(31, 187, 0), rgb(255, 255, 255));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
 }
+
 .contact-form {
     background: linear-gradient(to right, rgba(122, 16, 122, 0.349), #0063cc6e);
     border-radius: 2em;
@@ -127,6 +141,7 @@ body {
     text-align: center;
     color: #ffff;
 }
+
 .contact-form .btnContact {
     width: 50%;
     border: none;
@@ -138,29 +153,34 @@ body {
     cursor: pointer;
 }
 
-.card{
+.card {
     background: transparent;
     margin: 1%;
 }
-.card:hover{
-    border: 1px solid  rgba(122, 16, 122, 0.747);
+
+.card:hover {
+    border: 1px solid rgba(122, 16, 122, 0.747);
     background: linear-gradient(to right, rgba(122, 16, 122, 0.349), #0063cc6e);
 }
-.card-body{
-color:white;
+
+.card-body {
+    color: white;
 }
-.img-name{
-margin-top: 40%;
+
+.img-name {
+    margin-top: 40%;
 
 }
+
 @media (min-width: 300px) {
-    .img-name{
-      width: 250px;
+    .img-name {
+        width: 250px;
         margin-left: 0;
-        }
+    }
 }
+
 #about {
-  
+
 
     font-size: 320%;
     background: -webkit-linear-gradient(rgb(31, 187, 0), rgb(255, 255, 255));
@@ -168,6 +188,5 @@ margin-top: 40%;
     -webkit-text-fill-color: transparent;
 
 }
-.projects{
-   
-}
+
+.projects {}
