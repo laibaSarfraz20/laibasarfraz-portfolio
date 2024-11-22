@@ -48,6 +48,7 @@ body {
 
 .navbar-nav {
     padding: 0 10px;
+    margin-left: auto;
 
 }
 
@@ -91,10 +92,14 @@ body {
     background: -webkit-linear-gradient(rgb(31, 187, 0), rgb(255, 255, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: centerF;
+    text-align: center;
 
 }
+.projects{
+    align-content: center;
+}
 .btn{
+    color: #fff;
     background: linear-gradient(to right, #0063cc8c, rgba(122, 16, 122, 0.747));
 }
 .about-me {
@@ -102,6 +107,7 @@ body {
     background: -webkit-linear-gradient(rgb(31, 187, 0), rgb(255, 255, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: justify;
 }
 
 .contact-form {
@@ -155,7 +161,6 @@ body {
 
 .card {
     background: transparent;
-    margin: 1%;
 }
 
 .card:hover {
@@ -177,6 +182,9 @@ body {
         width: 250px;
         margin-left: 0;
     }
+    .card{
+ width: auto;
+    }
 }
 
 #about {
@@ -189,3 +197,25 @@ body {
 
 }
 
+
+footer {
+    padding: 20px;
+}
+
+@media (max-width: 576px) {
+    footer {
+        padding: 10px;
+    }
+    .row{
+        font-size: 120%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .about-me{
+        font-size: 110%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-inline: 0;
+    }
+}
