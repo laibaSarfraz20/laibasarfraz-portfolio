@@ -4,7 +4,15 @@ body {
     padding: 0;
     font-family: sans-serif;
     overflow-x: hidden;
-    background-image: url("img/Screenshot\ 2024-11-11\ 220023.png")
+
+
+
+}
+
+.animated {
+    background-image: url("img/Screenshot\ 2024-11-11\ 220023.png");
+    background-size: cover;
+    width: 100%;
 }
 
 .navbar-brand img {
@@ -95,13 +103,16 @@ body {
     text-align: center;
 
 }
-.projects{
+
+/* .projects {
     align-content: center;
-}
-.btn{
+} */
+
+.btn {
     color: #fff;
     background: linear-gradient(to right, #0063cc8c, rgba(122, 16, 122, 0.747));
 }
+
 .about-me {
     font-size: 110%;
     background: -webkit-linear-gradient(rgb(31, 187, 0), rgb(255, 255, 255));
@@ -182,8 +193,9 @@ body {
         width: 250px;
         margin-left: 0;
     }
-    .card{
- width: auto;
+
+    .card {
+        width: auto;
     }
 }
 
@@ -206,12 +218,14 @@ footer {
     footer {
         padding: 10px;
     }
-    .row{
+
+    .row {
         font-size: 120%;
         margin-left: 0%;
         margin-right: 0%;
     }
-    .about-me{
+
+    .about-me {
         font-size: 110%;
         margin-left: 0;
         margin-right: 0;
